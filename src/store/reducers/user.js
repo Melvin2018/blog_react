@@ -1,8 +1,8 @@
-const blogs = {
+const usuario = {
     list: [],
-    blog: {}
+    usuario: {}
 }
-const reducer = (state = blogs, action) => {
+const reducer = (state = usuario, action) => {
     switch (action.type) {
         case "GET":
             return state;

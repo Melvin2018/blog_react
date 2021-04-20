@@ -35,7 +35,7 @@ const ScrollTop = (props) => {
 const ScrollButton = (props) => {
     return (
         <ScrollTop {...props}>
-            <Fab color="secondary" size="small" aria-label="scroll para regreso">
+            <Fab color="primary" size="small" aria-label="scroll para regreso">
                 <KeyboardArrowUp />
             </Fab>
         </ScrollTop>
